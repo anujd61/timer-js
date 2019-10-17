@@ -12,6 +12,10 @@ setInterval(function timechange(){
 	if(i==60){
 		i=0;
 		m++;}
+	if(m==60){
+		m=0;
+		h++;
+			}
 
 
 },1000)
